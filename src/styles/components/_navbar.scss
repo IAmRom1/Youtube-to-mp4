@@ -1,0 +1,28 @@
+.NavLink{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 10px;
+        user-select: none;
+        h2{
+            font-family: $font-Caveat;
+            font-size: 1.7rem;
+            color: white;
+            margin-right: 3em;
+        }
+        ul{
+            display: flex;
+            flex-direction: row;
+            a{
+                color: white;
+                text-decoration: none;
+            }
+            li{
+                margin: 5px;
+                font-family: $font-Overpass;
+                font-size: 1.1em;
+            }
+        }
+    }
